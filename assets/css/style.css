@@ -4,13 +4,14 @@ body {
     background-color: #121212;
     color: #d5d5d5;
     margin: 0;
-    padding: 20px;
+    padding-inline: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* Styling the header */
 header {
-    background-color: #007bff;
-    color: white;
+    background-color: #eb9ee7;
+    color: #d5d5d5;
     height: 2rem;
-    padding: 10px 20px;
 }
