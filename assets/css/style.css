@@ -22,11 +22,10 @@ body {
 /* Styling the header */
 header {
     background-color: linear-gradient(45deg, var(--accent-color), var(--primary-color));
-    drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     color: var(--secondary-color);
     height: 2rem;
-
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 section {
