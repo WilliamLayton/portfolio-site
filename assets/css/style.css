@@ -7,6 +7,12 @@ body {
     padding: 20px;
 }
 
+main {
+    background-color: black;
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
 /* Styling the header */
 header {
     background-color: #007bff;
