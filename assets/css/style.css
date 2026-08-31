@@ -3,22 +3,27 @@
     --primary-color: #121212;
     --secondary-color: #d5d5d5;
     --accent-color: #eb9ee7;
+
+    /* Define font variables */
+    --primary-font: bebas neue, sans-serif;
 }
 
 /* Base styles for the page */
 body {
-    font-family: Arial, sans-serif;
+    font-family: var(--primary-font);
     background-color: var(--primary-color);
     color: var(--secondary-color);
     margin: 0;
-    padding-inline: 20rem;
+    padding-inline: 20rem; /* Add padding to the left and right of the page */
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
 /* Styling the header */
 header {
-    background-color: var(--accent-color);
+    background-color: linear-gradient(to right, var(--accent-color), var(--primary-color));
+    drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
     color: var(--secondary-color);
     height: 2rem;
 }
