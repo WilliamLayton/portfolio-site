@@ -1,22 +1,16 @@
 /* Base styles for the page */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #121212;
+    color: #d5d5d5;
     margin: 0;
     padding: 20px;
-}
-
-main {
-    background-color: black;
-    max-width: 800px;
-    margin: 0 auto; 
 }
 
 /* Styling the header */
 header {
     background-color: #007bff;
     color: white;
+    height: 2rem;
     padding: 10px 20px;
-    text-align: center;
 }
