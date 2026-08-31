@@ -1,8 +1,15 @@
+:root {
+    /* Define color variables */
+    --primary-color: #121212;
+    --secondary-color: #d5d5d5;
+    --accent-color: #eb9ee7;
+}
+
 /* Base styles for the page */
 body {
     font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: #d5d5d5;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     margin: 0;
     padding-inline: 20rem;
     padding-top: 1rem;
@@ -11,15 +18,16 @@ body {
 
 /* Styling the header */
 header {
-    background-color: #eb9ee7;
-    color: #d5d5d5;
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
     height: 2rem;
 }
 
 section {
     margin-top: 2rem;
     padding: 1rem;
-    background-color: #ffc2c2;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
     border-radius: 5px;
-    opacity: 0.9;
+    opacity: 0.5;
 }
