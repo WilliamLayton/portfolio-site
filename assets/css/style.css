@@ -37,9 +37,10 @@ section {
     opacity: 0.5;
 }
 
-sidebar {
+.sidebar {
     height: 100%;
     width: 5rem;
     background-color: var(--accent-color);
     padding: 1rem;
+    border-radius: 5px;
 }
