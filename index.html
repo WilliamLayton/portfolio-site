@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Basic Website</title>
+    <title>Wills Webspace</title>
     <!-- This line connects your HTML to your CSS file -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -12,20 +12,35 @@
         <nav>
             <ul class="nav-style">
                 <li><a href="#about">About Me</a></li>
+                <li><a href="#my-links">My Links</a></li>
                 <li><a href="#projects">Projects</a></li>
             </ul>
         </nav>
     </div>
     <div class="content">
-        <header >
-            <h1>Welcome to My Website</h1>
+        <header class="main-header">
+            <img src="assets/images/unwrapped v7.JPG" alt="Left Image" class="header-img">
+            <h1 style="text-decoration: underline;">Wills Webspace</h1>
+            <img src="assets/images/unwrapped v7.JPG" alt="Right Image" class="header-img">
         </header>
         <main>
-            <section>
+            <section class="fancy-box">
                 <h2>About Me</h2>
                 <p>This is a basic website created to demonstrate HTML and CSS skills.</p>  
             </section>            
-            <section>
+            <section style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <h2 style="text-decoration: underline;">My Links</h2>
+                <div class="my-links">
+                    <a class="link" href=""></a>
+                    <a class="link" href=""></a>
+                    <a class="link" href=""></a>
+                    <a class="link" href=""></a>
+                    <a class="link" href=""></a>
+                    <a class="link" href=""></a>
+                    <a class="link" href=""></a>
+                </div>
+            </section>
+            <section class="fancy-box">
                 <h2>Projects</h2>
                 <p>Here are some of my projects:</p>
                 <ul>
@@ -36,7 +51,7 @@
             </section>
         </main>
     </div>
-    <div class="footer">
+    <div class="footer fancy-box">
         <p>PENIS</p>
     </div>
 
