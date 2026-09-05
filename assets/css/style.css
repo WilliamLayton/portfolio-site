@@ -47,7 +47,7 @@ header {
 
 .title-img {
     width: 400px;   /* Maintains the aspect ratio */
-    max-width: 400px; /* Ensures the image doesn't exceed the container width */
+    max-width: 100%; /* Ensures the image doesn't exceed the container width */
     height: auto;  /* Maintains the aspect ratio */
 }
 
@@ -181,4 +181,24 @@ section {
 .link p {
     margin: 0;          /* Remove default margin */
     font-size: 0.6rem;   /* Adjust font size as needed */
-    text-align: center;  /* Center the text */}
+    text-align: center;  /* Center the text */
+}
+
+.presence-badge {
+    position: fixed;   /* Removes the element from normal flow and locks it to the viewport */
+    bottom: 1rem;         /* Aligns it perfectly to the bottom edge */
+    right: 2rem;          /* Aligns it perfectly to the right edge */
+    z-index: 9999;     /* Optional: Ensures it stays on top of other content */
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.status-dot {
+      width: 10px;
+      height: 10px;
+      background-color: #22c55e;
+      border-radius: 50%;
+      display: inline-block;
+      outline: 2px solid #fff; /* Optional: Adds a white border for better visibility */
+}
