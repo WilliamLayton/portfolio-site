@@ -228,3 +228,27 @@ section {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.hobby-content {
+    display: flex;
+    gap: 1rem; /* Adjust the gap as needed */
+    flex-wrap: wrap; /* Allows items to wrap to the next line if they exceed the container width */
+}
+
+.hobby-item {
+    max-width: 250px; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+    text-align: center; /* Centers the content inside each hobby item */
+}
+
+.hobby-item img {
+    width: 100%; /* Makes the image take the full width of the hobby item */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 5px; /* Optional: rounded corners for the images */
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3); /* Optional: shadow for the images */
+}
+
+.hobby-item p {
+    margin-top: 0.5rem; /* Adds some space between the image and the text */
+    font-size: 0.9rem; /* Adjust font size as needed */
+}
