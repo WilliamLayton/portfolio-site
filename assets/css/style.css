@@ -202,3 +202,29 @@ section {
       display: inline-block;
       outline: 2px solid #fff; /* Optional: Adds a white border for better visibility */
 }
+
+.custom-list {
+    list-style: none; /* Removes the default dot point */
+    padding: 0;
+    margin: 0;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 30px; /* Adjust this space to make room for your image */
+  margin-bottom: 10px; /* Optional spacing between list items */
+  line-height: 1.5;
+}
+
+.custom-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); /* Vertically centers the image perfectly */
+  width: 20px; /* Set the exact width of your bullet image */
+  height: 20px; /* Set the exact height of your bullet image */
+  background-image: url('../images/3dgifmaker87822.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
