@@ -15,6 +15,7 @@
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#my-links">My Links</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#interests">Interests</a></li>
                 </ul>
             </nav>
         </div>
@@ -22,15 +23,22 @@
         <div class="content">
             <header class="main-header">
                 <img src="assets/images/unwrapped v7.JPG" alt="Left Image" class="header-img">
-                <h1 style="text-decoration: underline;">Wills Webspace</h1>
+                <img src="assets/images/WillsWebspace-WillsWebspace-WillsWebspace-WillsWeb.png" alt="Center Image" class="title-img"> 
                 <img src="assets/images/unwrapped v7.JPG" alt="Right Image" class="header-img">
             </header>
             <main>
-                <section class="fancy-box">
-                    <h2>About Me</h2>
-                    <p>Welcome to my webpage, here you can find links to eveything i do.</p>  
+                <section class="fancy-box" id="about">
+                    <div>
+                        <h2>About Me</h2>
+                        <p>
+                            Welcome to my webpage, here you can find links to eveything i do as well as things i enjoy. <br>
+                            My name is Will and im a current student at the University of Queendsland studing a Bachelors of Computer Science. <br><br>
+                            Feel free to explore my page, and if you want to get in touch, you can contact me via my instagram below. <br>
+                        </p>  
+                    </div>
+                    <img src="assets/images/3dgifmaker87822.gif" can-move alt="About Me Image" class="about-img">
                 </section>            
-                <section style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <section style="display: flex; flex-direction: column; justify-content: center; align-items: center;" id="my-links">
                     <h2 style="text-decoration: underline;">My Links</h2>
                     <div class="my-links">
                         <a class="link" href="https://soundcloud.com/william-layton-59203106?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
@@ -67,7 +75,7 @@
                         </a>
                     </div>
                 </section>
-                <section class="fancy-box">
+                <section class="fancy-box" id="projects">
                     <h2>Projects</h2>
                     <p>Here are some of my projects:</p>
                     <ul>
@@ -76,13 +84,21 @@
                         <li>Project 3: Description of project 3.</li>
                     </ul>
                 </section>
+                <section style="margin-top: 1rem; display: flex; flex-direction: column; justify-content: center; align-items: center;" id="interests">
+                    <h2 style="text-decoration: underline;">Interests</h2>
+                    <div class="fancy-box" style="width: 100%;">temp</div>
+                </section>
             </main>
         </div>
-        <div class="footer fancy-box">
-            <p>PENIS</p>
+        <div class="footer">
+            <p>Thanks for visiting my webspace!</p>
         </div>
     </div>
     <!-- IMPORT playhtml into site-->
-    <script type="module" src="https://unpkg.com/playhtml/dist/init.es.js"></script>
+    <script type="module">
+        import { playhtml } from "https://unpkg.com/playhtml@latest";
+        // Initialize interactive HTML features
+        playhtml.init();
+    </script> 
 </body>
 </html>
