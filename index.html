@@ -7,7 +7,7 @@
     <!-- This line connects your HTML to your CSS file -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body id="top">
     <div class="container">
         <div class="sidebar">
             <nav>
@@ -15,7 +15,8 @@
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#my-links">My Links</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#interests">Hobbies</a></li>
+                    <li><a href="#mybag">My Swim <br> Bag</a></li>
                 </ul>
             </nav>
         </div>
@@ -84,16 +85,62 @@
                         <li>Project 3: Description of project 3.</li>
                     </ul>
                 </section>
+
                 <section style="margin-top: 1rem; display: flex; flex-direction: column; justify-content: center; align-items: center;" id="interests">
                     <h2 style="text-decoration: underline;">Hobbies</h2>
                     <div class="fancy-box" style="width: 100%;">
                         <h3>Drawing</h3>
                         <p>Here are some of things i've drawn:</p>
-                        <div class="hobby-content">
+                        <div class="hobby-content" id="water">
                             <div class="hobby-item">
-                                <img src="assets/images/3dgifmaker19939.gif" alt="Drawing 1" class="hobby-img">
-                                <p>Drawing 1 <br>
-                                Date:</p>
+                                <img src="assets/images/art1.jpg" alt="Drawing 1" class="hobby-img">
+                            </div>
+                             <div class="hobby-item">
+                                <img src="assets/images/art2.jpg" alt="Drawing 1" class="hobby-img">
+                            </div>
+                             <div class="hobby-item">
+                                <img src="assets/images/art3.jpg" alt="Drawing 1" class="hobby-img">
+                            </div>
+                             <div class="hobby-item">
+                                <img src="assets/images/art4.jpg" alt="Drawing 1" class="hobby-img">
+                            </div>
+                             <div class="hobby-item">
+                                <img src="assets/images/art5.jpg" alt="Drawing 1" class="hobby-img">
+                            </div>
+                             <div class="hobby-item">
+                                <img src="assets/images/art6.jpg" alt="Drawing 1" class="hobby-img">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section style="margin-top: 1rem; display: flex; flex-direction: column; justify-content: center; align-items: center;" id="mybag">
+                    <h2 style="text-decoration: underline;">Whats In My Swim Bag?</h2>
+                    <div class="fancy-box" style="width: 100%" id="water-bg">
+                        <div class="hobby-content" id="water">
+                            <div class="hobby-item" id="water">
+                                <img src="assets/images/Goggles.gif" alt="Drawing 1" class="hobby-img">
+                                <p id="water">Goggles</p>
+                            </div>
+                            <div class="hobby-item" id="water">
+                                <img src="assets/images/Swim Cap.gif" alt="Drawing 1" class="hobby-img">
+                                <p id="water">Swim Cap</p>
+                            </div>
+                            <div class="hobby-item" id="water">
+                                <img src="assets/images/swim suit.gif" alt="Drawing 1" class="hobby-img">
+                                <p id="water">Swim Suit</p>
+                            </div>
+                            <div class="hobby-item" id="water">
+                                <img src="assets/images/towel.gif" alt="Drawing 1" class="hobby-img">
+                                <p id="water">Towel</p>
+                            </div>
+                            <div class="hobby-item" id="water">
+                                <img src="assets/images/earplugs.gif" alt="Drawing 1" class="hobby-img">
+                                <p id="water">Ear Plugs</p>
+                            </div>
+                            <div class="hobby-item" id="water">
+                                <img src="assets/images/warm up equipment.gif" alt="Drawing 1" class="hobby-img">
+                                <p id="water">Activation<br>Equipment</p>
                             </div>
                         </div>
                     </div>
@@ -110,5 +157,6 @@
         // Initialize interactive HTML features
         playhtml.init();
     </script> 
+    <a href="#top" class="back-to-top" aria-label="Back to top">Back To Top</a>
 </body>
 </html>

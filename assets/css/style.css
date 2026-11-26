@@ -232,7 +232,11 @@ section {
 .hobby-content {
     display: flex;
     gap: 1rem; /* Adjust the gap as needed */
-    flex-wrap: wrap; /* Allows items to wrap to the next line if they exceed the container width */
+    flex-wrap: wrap; /* Allows items to wrap to the next loine if they exceed the container width */
+}
+
+.hobby-content#water {
+    justify-content: center;
 }
 
 .hobby-item {
@@ -246,9 +250,46 @@ section {
     height: auto; /* Maintains the aspect ratio */
     border-radius: 5px; /* Optional: rounded corners for the images */
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3); /* Optional: shadow for the images */
+    max-height: 300px;
 }
 
 .hobby-item p {
     margin-top: 0.5rem; /* Adds some space between the image and the text */
     font-size: 0.9rem; /* Adjust font size as needed */
+}
+
+.hobby-item#water {
+    width: 200px;
+}
+
+.hobby-item p#water {
+    margin-top: -3rem;
+    width: 100%;
+    background-color: #000000;
+    color: whitesmoke;
+    border-radius: 50%;
+}
+
+#water-bg {
+    background-image: url('../images/pool_texture.jpeg');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.back-to-top:hover {
+  background-color: #555;
 }
